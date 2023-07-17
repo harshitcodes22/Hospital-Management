@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Hospital Bookings
+    </title>
+    <link rel="shortcut icon" href="./images/hospital.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Links -->
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;600&family=Space+Mono:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!--  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;600&family=Roboto:wght@100;300;400;500;900&family=Space+Mono:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;600&family=Kanit:wght@300;400;500&family=Poppins:wght@100;200;300&family=Roboto:wght@100;300;400;500;900&family=Space+Mono:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="booking-body">
+    <div class="bookings__container">
+        <div class="booking-details">
+            <div class="bookings__left">
+                <!-- <img src="./images/doctor-removebg-preview.png" alt="" srcset="" class="bookings__img"> -->
+            </div>
+            <div class="bookings__right">
+                <h1 class="bookingsH1">Book your Appointment</h1>
+                <form action="" class="bookings__form">
+                    <input type="text" name="" id="" placeholder="Patients Name" class="bookings_input patient-name">
+                    <input type="email" name="" id="" placeholder="Email" class="bookings_input patient-email">
+                    <input type="number" name="" id="" placeholder="Phone Number" min="0" max="9999999999"
+                        class="bookings_input patient-mobile">
+                    <div class="gender">
+                        <label for="">Gender: </label>
+                        Male<input type="radio" name="a" id="" class="checkbox"> female <input type="radio" name="a"
+                            id="" class="checkbox">
+                    </div>
+                    <select name="" id="" class="bookings_select">
+                        <option value="" class="options_input input-specialization" selected disabled hidden>
+                            <div class="specialization">Specialization*</div>
+                        </option>
+                        <option value="" class="options_input">Cardiologist</option>
+                        <option value="" class="options_input">Orthopedics</option>
+                        <option value="" class="options_input">Dermatology</option>
+                        <option value="" class="options_input">General Surgery</option>
+                        <option value="" class="options_input">Ophthalmology</option>
+                    </select>
+                    <input type="date" class="bookings_date" min="27-06-2023" max="10-07-2023">
+                    <input type="submit" value="Submit" class="Btn_Submit">
+                    <div class="warning"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script2.js"></script>
+</body>
+
+</html>
